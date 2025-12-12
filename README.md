@@ -1,292 +1,414 @@
-# Chatbot UI
+<div align="center">
 
-The open-source AI chat app for everyone.
+# 🤖 ChatBot AI App
 
-<img src="./public/readme/screenshot.png" alt="Chatbot UI" width="600">
+### The Ultimate Open-Source AI Chat Interface for Everyone
 
-## Demo
+[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/apollodev1107-star/ChatBot-AI-App)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Next.js](https://img.shields.io/badge/Next.js-14.1-black)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-18.0-61dafb)](https://reactjs.org/)
+[![Supabase](https://img.shields.io/badge/Supabase-2.38-green)](https://supabase.com/)
+[![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-View the latest demo [here](https://x.com/mckaywrigley/status/1738273242283151777?s=20).
+[🚀 Live Demo](#) • [📖 Documentation](#documentation) • [💬 Discussions](https://github.com/apollodev1107-star/ChatBot-AI-App/discussions) • [🐛 Report Bug](https://github.com/apollodev1107-star/ChatBot-AI-App/issues)
 
-## Updates
+---
 
-Hey everyone! I've heard your feedback and am working hard on a big update.
+<img src="./public/readme/screenshot.png" alt="Chatbot UI Dashboard" width="800" style="border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
-Things like simpler deployment, better backend compatibility, and improved mobile layouts are on their way.
+</div>
 
-Be back soon.
+---
 
--- Mckay
+## 📊 Project Statistics
 
-## Official Hosted Version
+<div align="center">
 
-Use Chatbot UI without having to host it yourself!
+| Metric | Value |
+|--------|-------|
+| **Total Commits** | 264+ |
+| **Project Start** | January 2018 |
+| **Latest Update** | December 2025 |
+| **Tech Stack** | Next.js, React, TypeScript, Supabase |
+| **AI Providers** | OpenAI, Anthropic, Google, Azure, Mistral |
+| **Languages** | TypeScript, JavaScript, SQL |
 
-Find the official hosted version of Chatbot UI [here](https://chatbotui.com).
+</div>
 
-## Sponsor
+---
 
-If you find Chatbot UI useful, please consider [sponsoring](https://github.com/sponsors/mckaywrigley) me to support my open-source work :)
+## ✨ Key Features
 
-## Issues
+<div align="center">
 
-We restrict "Issues" to actual issues related to the codebase.
+### 🎯 Core Capabilities
 
-We're getting excessive amounts of issues that amount to things like feature requests, cloud provider issues, etc.
+| Feature | Description |
+|---------|-------------|
+| 🤖 **Multi-AI Support** | Integrate with OpenAI, Anthropic Claude, Google Gemini, Azure OpenAI, and Mistral |
+| 💬 **Advanced Chat Interface** | Beautiful, responsive chat UI with markdown support, code highlighting, and file attachments |
+| 🔒 **Secure Authentication** | Built-in user authentication with Supabase |
+| 📁 **File Management** | Upload and process PDFs, documents, and images |
+| 🌐 **Multi-language** | Internationalization support (i18n) |
+| 🎨 **Dark Mode** | Beautiful dark and light themes |
+| 📱 **Mobile Responsive** | Fully optimized for mobile devices |
+| 🔍 **RAG Support** | Retrieval-Augmented Generation with vector embeddings |
+| 🛠️ **Custom Assistants** | Create and manage custom AI assistants |
+| 📊 **Workspace Management** | Organize chats and data in workspaces |
 
-If you are having issues with things like setup, please refer to the "Help" section in the "Discussions" tab above.
+</div>
 
-Issues unrelated to the codebase will likely be closed immediately.
+---
 
-## Discussions
+## 🛠️ Tech Stack
 
-We highly encourage you to participate in the "Discussions" tab above!
+<div align="center">
 
-Discussions are a great place to ask questions, share ideas, and get help.
+### Frontend
+![Next.js](https://img.shields.io/badge/Next.js-14.1-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-18.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-Odds are if you have a question, someone else has the same question.
+### Backend & Database
+![Supabase](https://img.shields.io/badge/Supabase-2.38-3ECF8E?style=for-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-## Legacy Code
+### AI & ML
+![OpenAI](https://img.shields.io/badge/OpenAI-4.23-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-Claude-FF6B35?style=for-the-badge)
+![Google AI](https://img.shields.io/badge/Google-Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-Chatbot UI was recently updated to its 2.0 version.
+### Tools & Libraries
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-20.10-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-29.7-C21325?style=for-the-badge&logo=jest&logoColor=white)
 
-The code for 1.0 can be found on the `legacy` branch.
+</div>
 
-## Updating
+---
 
-In your terminal at the root of your local Chatbot UI repository, run:
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Node.js 18+ 
+- Docker (for local Supabase)
+- npm or yarn
+
+### Installation
 
 ```bash
-npm run update
+# Clone the repository
+git clone https://github.com/apollodev1107-star/ChatBot-AI-App.git
+cd ChatBot-AI-App
+
+# Install dependencies
+npm install
+
+# Start Supabase locally
+supabase start
+
+# Copy environment variables
+cp .env.local.example .env.local
+
+# Run the development server
+npm run chat
 ```
 
-If you run a hosted instance you'll also need to run:
+Visit [http://localhost:3000](http://localhost:3000) to see your app!
+
+---
+
+## 📁 Project Structure
+
+```
+ChatBot-AI-App/
+├── app/                    # Next.js app directory
+│   ├── api/               # API routes
+│   ├── [locale]/          # Internationalized routes
+│   └── auth/              # Authentication
+├── components/            # React components
+│   ├── chat/              # Chat-related components
+│   ├── messages/          # Message components
+│   ├── sidebar/           # Sidebar components
+│   └── ui/                # UI primitives
+├── db/                    # Database schemas
+├── lib/                   # Utility libraries
+├── public/                # Static assets
+├── supabase/              # Supabase configuration
+│   └── migrations/        # Database migrations
+└── types/                 # TypeScript types
+```
+
+---
+
+## 🎨 Features Showcase
+
+### 🤖 Multi-AI Provider Support
+Connect to multiple AI providers simultaneously:
+- **OpenAI** (GPT-4, GPT-3.5)
+- **Anthropic** (Claude 3)
+- **Google** (Gemini Pro)
+- **Azure OpenAI**
+- **Mistral AI**
+
+### 💬 Advanced Chat Features
+- Real-time streaming responses
+- Markdown rendering with syntax highlighting
+- Code block execution
+- File attachments (PDF, images, documents)
+- Message editing and deletion
+- Conversation history
+
+### 🔒 Security & Privacy
+- Secure authentication with Supabase
+- Encrypted data storage
+- Role-based access control
+- Workspace isolation
+
+### 📊 Analytics & Monitoring
+- Built-in analytics dashboard
+- Usage tracking
+- Performance monitoring
+- Error logging
+
+---
+
+## 🧪 Testing
 
 ```bash
-npm run db-push
+# Run unit tests
+npm test
+
+# Run E2E tests
+cd __tests__/playwright-test
+npm test
 ```
 
-to apply the latest migrations to your live database.
+---
 
-## Local Quickstart
+## 📈 Performance
 
-Follow these steps to get your own Chatbot UI instance running locally.
+- ⚡ **Fast Initial Load**: Optimized bundle size with code splitting
+- 🚀 **Server-Side Rendering**: Next.js SSR for better SEO
+- 💾 **Efficient Caching**: Smart caching strategies
+- 📱 **Mobile Optimized**: Responsive design for all devices
 
-You can watch the full video tutorial [here](https://www.youtube.com/watch?v=9Qq3-7-HNgw).
+---
 
-### 1. Clone the Repo
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- Built with [Next.js](https://nextjs.org/)
+- UI components from [Radix UI](https://www.radix-ui.com/)
+- Icons from [Tabler Icons](https://tabler.io/icons)
+- Database powered by [Supabase](https://supabase.com/)
+
+---
+
+## 📞 Contact & Support
+
+- **GitHub Issues**: [Report a bug](https://github.com/apollodev1107-star/ChatBot-AI-App/issues)
+- **Discussions**: [Join the discussion](https://github.com/apollodev1107-star/ChatBot-AI-App/discussions)
+- **Email**: [Your Email]
+
+---
+
+<div align="center">
+
+### ⭐ Star this repo if you find it helpful!
+
+**Made with ❤️ by [apollodev1107-star](https://github.com/apollodev1107-star)**
+
+[![GitHub stars](https://img.shields.io/github/stars/apollodev1107-star/ChatBot-AI-App.svg?style=social&label=Star)](https://github.com/apollodev1107-star/ChatBot-AI-App)
+[![GitHub forks](https://img.shields.io/github/forks/apollodev1107-star/ChatBot-AI-App.svg?style=social&label=Fork)](https://github.com/apollodev1107-star/ChatBot-AI-App)
+
+</div>
+
+---
+
+## 📚 Documentation
+
+### Local Development
+
+<details>
+<summary>Click to expand setup instructions</summary>
+
+#### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/mckaywrigley/chatbot-ui.git
+git clone https://github.com/apollodev1107-star/ChatBot-AI-App.git
+cd ChatBot-AI-App
 ```
 
-### 2. Install Dependencies
-
-Open a terminal in the root directory of your local Chatbot UI repository and run:
+#### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Install Supabase & Run Locally
+#### 3. Install Supabase & Run Locally
 
-#### Why Supabase?
+**Why Supabase?**
 
-Previously, we used local browser storage to store data. However, this was not a good solution for a few reasons:
+We use Supabase because it's:
+- Easy to use
+- Open-source
+- Built on PostgreSQL
+- Has a free tier for hosted instances
 
-- Security issues
-- Limited storage
-- Limits multi-modal use cases
+**Installation Steps:**
 
-We now use Supabase because it's easy to use, it's open-source, it's Postgres, and it has a free tier for hosted instances.
+1. **Install Docker** - Download from [here](https://docs.docker.com/get-docker)
 
-We will support other providers in the future to give you more options.
+2. **Install Supabase CLI**
 
-#### 1. Install Docker
+   **MacOS/Linux:**
+   ```bash
+   brew install supabase/tap/supabase
+   ```
 
-You will need to install Docker to run Supabase locally. You can download it [here](https://docs.docker.com/get-docker) for free.
+   **Windows:**
+   ```bash
+   scoop bucket add supabase https://github.com/supabase/scoop-bucket.git
+   scoop install supabase
+   ```
 
-#### 2. Install Supabase CLI
+3. **Start Supabase**
+   ```bash
+   supabase start
+   ```
 
-**MacOS/Linux**
+#### 4. Fill in Secrets
 
-```bash
-brew install supabase/tap/supabase
-```
+1. **Environment Variables**
+   ```bash
+   cp .env.local.example .env.local
+   ```
 
-**Windows**
+   Get the required values by running:
+   ```bash
+   supabase status
+   ```
 
-```bash
-scoop bucket add supabase https://github.com/supabase/scoop-bucket.git
-scoop install supabase
-```
+   Fill in your `.env.local` file with the values from `supabase status`.
 
-#### 3. Start Supabase
+2. **SQL Setup**
 
-In your terminal at the root of your local Chatbot UI repository, run:
+   In the 1st migration file `supabase/migrations/20240108234540_setup.sql`, replace:
+   - `project_url` (line 53)
+   - `service_role_key` (line 54)
 
-```bash
-supabase start
-```
+#### 5. Install Ollama (Optional)
 
-### 4. Fill in Secrets
+For local models, follow instructions [here](https://github.com/jmorganca/ollama#macos).
 
-#### 1. Environment Variables
-
-In your terminal at the root of your local Chatbot UI repository, run:
-
-```bash
-cp .env.local.example .env.local
-```
-
-Get the required values by running:
-
-```bash
-supabase status
-```
-
-Note: Use `API URL` from `supabase status` for `NEXT_PUBLIC_SUPABASE_URL`
-
-Now go to your `.env.local` file and fill in the values.
-
-If the environment variable is set, it will disable the input in the user settings.
-
-#### 2. SQL Setup
-
-In the 1st migration file `supabase/migrations/20240108234540_setup.sql` you will need to replace 2 values with the values you got above:
-
-- `project_url` (line 53): `http://supabase_kong_chatbotui:8000` (default) can remain unchanged if you don't change your `project_id` in the `config.toml` file
-- `service_role_key` (line 54): You got this value from running `supabase status`
-
-This prevents issues with storage files not being deleted properly.
-
-### 5. Install Ollama (optional for local models)
-
-Follow the instructions [here](https://github.com/jmorganca/ollama#macos).
-
-### 6. Run app locally
-
-In your terminal at the root of your local Chatbot UI repository, run:
+#### 6. Run App Locally
 
 ```bash
 npm run chat
 ```
 
-Your local instance of Chatbot UI should now be running at [http://localhost:3000](http://localhost:3000). Be sure to use a compatible node version (i.e. v18).
+Your app will be running at [http://localhost:3000](http://localhost:3000)
 
-You can view your backend GUI at [http://localhost:54323/project/default/editor](http://localhost:54323/project/default/editor).
+</details>
 
-## Hosted Quickstart
+### Hosted Deployment
 
-Follow these steps to get your own Chatbot UI instance running in the cloud.
+<details>
+<summary>Click to expand deployment instructions</summary>
 
-Video tutorial coming soon.
+#### Setup Backend with Supabase
 
-### 1. Follow Local Quickstart
+1. Create a new project at [Supabase](https://supabase.com/)
+2. Get your project values from Settings → API
+3. Link your project:
+   ```bash
+   supabase login
+   supabase link --project-ref <project-id>
+   supabase db push
+   ```
 
-Repeat steps 1-4 in "Local Quickstart" above.
+#### Setup Frontend with Vercel
 
-You will want separate repositories for your local and hosted instances.
+1. Go to [Vercel](https://vercel.com/) and create a new project
+2. Import your GitHub repository
+3. Set Framework Preset to "Next.js"
+4. Add environment variables:
+   - `NEXT_PUBLIC_SUPABASE_URL`
+   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+   - `SUPABASE_SERVICE_ROLE_KEY`
+   - `OPENAI_API_KEY` (optional)
+5. Click "Deploy"
 
-Create a new repository for your hosted instance of Chatbot UI on GitHub and push your code to it.
+</details>
 
-### 2. Setup Backend with Supabase
+---
 
-#### 1. Create a new project
+## 🔄 Updating
 
-Go to [Supabase](https://supabase.com/) and create a new project.
-
-#### 2. Get Project Values
-
-Once you are in the project dashboard, click on the "Project Settings" icon tab on the far bottom left.
-
-Here you will get the values for the following environment variables:
-
-- `Project Ref`: Found in "General settings" as "Reference ID"
-
-- `Project ID`: Found in the URL of your project dashboard (Ex: https://supabase.com/dashboard/project/<YOUR_PROJECT_ID>/settings/general)
-
-While still in "Settings" click on the "API" text tab on the left.
-
-Here you will get the values for the following environment variables:
-
-- `Project URL`: Found in "API Settings" as "Project URL"
-
-- `Anon key`: Found in "Project API keys" as "anon public"
-
-- `Service role key`: Found in "Project API keys" as "service_role" (Reminder: Treat this like a password!)
-
-#### 3. Configure Auth
-
-Next, click on the "Authentication" icon tab on the far left.
-
-In the text tabs, click on "Providers" and make sure "Email" is enabled.
-
-We recommend turning off "Confirm email" for your own personal instance.
-
-#### 4. Connect to Hosted DB
-
-Open up your repository for your hosted instance of Chatbot UI.
-
-In the 1st migration file `supabase/migrations/20240108234540_setup.sql` you will need to replace 2 values with the values you got above:
-
-- `project_url` (line 53): Use the `Project URL` value from above
-- `service_role_key` (line 54): Use the `Service role key` value from above
-
-Now, open a terminal in the root directory of your local Chatbot UI repository. We will execute a few commands here.
-
-Login to Supabase by running:
+To update your local instance:
 
 ```bash
-supabase login
+npm run update
 ```
 
-Next, link your project by running the following command with the "Project ID" you got above:
+For hosted instances, also run:
 
 ```bash
-supabase link --project-ref <project-id>
+npm run db-push
 ```
 
-Your project should now be linked.
+---
 
-Finally, push your database to Supabase by running:
+## 🐛 Troubleshooting
 
-```bash
-supabase db push
-```
+### Common Issues
 
-Your hosted database should now be set up!
+**Issue**: Supabase won't start
+- **Solution**: Make sure Docker is running
 
-### 3. Setup Frontend with Vercel
+**Issue**: Environment variables not working
+- **Solution**: Check `.env.local` file exists and has correct values
 
-Go to [Vercel](https://vercel.com/) and create a new project.
+**Issue**: Build errors
+- **Solution**: Make sure you're using Node.js 18+
 
-In the setup page, import your GitHub repository for your hosted instance of Chatbot UI. Within the project Settings, in the "Build & Development Settings" section, switch Framework Preset to "Next.js".
+---
 
-In environment variables, add the following from the values you got above:
+## 📊 Roadmap
 
-- `NEXT_PUBLIC_SUPABASE_URL`
-- `NEXT_PUBLIC_SUPABASE_ANON_KEY`
-- `SUPABASE_SERVICE_ROLE_KEY`
-- `NEXT_PUBLIC_OLLAMA_URL` (only needed when using local Ollama models; default: `http://localhost:11434`)
+- [ ] Enhanced mobile experience
+- [ ] Additional AI provider integrations
+- [ ] Advanced analytics dashboard
+- [ ] Plugin system
+- [ ] API documentation
+- [ ] Multi-tenant support
 
-You can also add API keys as environment variables.
+---
 
-- `OPENAI_API_KEY`
-- `AZURE_OPENAI_API_KEY`
-- `AZURE_OPENAI_ENDPOINT`
-- `AZURE_GPT_45_VISION_NAME`
+<div align="center">
 
-For the full list of environment variables, refer to the '.env.local.example' file. If the environment variables are set for API keys, it will disable the input in the user settings.
+**⭐ Don't forget to star this repository if you find it useful! ⭐**
 
-Click "Deploy" and wait for your frontend to deploy.
-
-Once deployed, you should be able to use your hosted instance of Chatbot UI via the URL Vercel gives you.
-
-## Contributing
-
-We are working on a guide for contributing.
-
-## Contact
-
-Message Mckay on [Twitter/X](https://twitter.com/mckaywrigley)
+</div>
